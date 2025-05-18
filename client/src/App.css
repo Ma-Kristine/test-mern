@@ -97,7 +97,7 @@ button{
     cursor: pointer;
     width: 100%;
     display: block;
-    background-color: #555;
+    background-color: #3a3d6c;
     border:0;
     color: #fff;
     border-radius: 5px;
@@ -159,6 +159,7 @@ div.edit-row{
     margin-bottom: 20px;
 }
 
+/* Edit button */
 div.post-page a.edit-btn{
     background-color: #3a3d6c;
     display: inline-flex;
@@ -173,5 +174,3 @@ div.post-page a.edit-btn{
 a svg{
     height:19px;
 }
-
-/* STOPPED HERE */
