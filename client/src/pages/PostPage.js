@@ -9,7 +9,7 @@ export default function PostPage() {
   const {userInfo} = useContext(UserContext);
   const {id} = useParams();
   useEffect(() => {
-    fetch(`https://replit.com/@Ma-Kristine-RKr/my-blog-site/post/${id}`)
+    fetch(`https://test-mern-2j8w.onrender.com/post/${id}`)
       .then(response => {
         response.json().then(postInfo => {
           setPostInfo(postInfo);
@@ -26,7 +26,7 @@ export default function PostPage() {
       <div className="author">Written by {postInfo.author.username}</div>
       
       <div className="image">
-        <img src={`https://replit.com/@Ma-Kristine-RKr/my-blog-site/${postInfo.cover}`} alt=""/>
+        <img src={`https://test-mern-2j8w.onrender.com/${postInfo.cover}`} alt=""/>
       </div>
 
       <div className="content" dangerouslySetInnerHTML={{__html:postInfo.content}} />

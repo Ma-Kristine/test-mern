@@ -5,7 +5,7 @@ import {UserContext} from "./UserContext";
 export default function Header() {
   const {setUserInfo,userInfo} = useContext(UserContext);
   useEffect(() => {
-    fetch('https://replit.com/@Ma-Kristine-RKr/my-blog-site/profile', {
+    fetch('https://test-mern-2j8w.onrender.com/profile', {
       credentials: 'include',
     }).then(response => {
       response.json().then(userInfo => {
@@ -15,7 +15,7 @@ export default function Header() {
   }, []);
 
   function logout() {
-    fetch('https://replit.com/@Ma-Kristine-RKr/my-blog-site/logout', {
+    fetch('https://test-mern-2j8w.onrender.com/logout', {
       credentials: 'include',
       method: 'POST',
     });

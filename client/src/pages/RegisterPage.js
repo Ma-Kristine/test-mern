@@ -6,7 +6,7 @@ export default function RegisterPage() {
     
     async function register(ev) {
         ev.preventDefault();
-        const response = await fetch('https://replit.com/@Ma-Kristine-RKr/my-blog-site/register', {
+        const response = await fetch('https://test-mern-2j8w.onrender.com/register', {
             method: 'POST',
             body: JSON.stringify({username, password}),
             headers: {'Content-Type':'application/json'},

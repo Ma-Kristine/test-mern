@@ -10,7 +10,7 @@ export default function LoginPage() {
 
   async function login(ev) {
     ev.preventDefault();
-    const response = await fetch('https://replit.com/@Ma-Kristine-RKr/my-blog-site/login', {
+    const response = await fetch('https://test-mern-2j8w.onrender.com/login', {
       method: 'POST',
       body: JSON.stringify({username, password}),
       headers: {'Content-Type':'application/json'},

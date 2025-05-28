@@ -1,2 +1,2 @@
-const backendUrl = "https://replit.com/@Ma-Kristine-RKr/my-blog-site";
+const backendUrl = "https://test-mern-2j8w.onrender.com";
 fetch(`${backendUrl}/your-endpoint`);
