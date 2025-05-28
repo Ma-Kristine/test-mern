@@ -16,7 +16,7 @@ const secret = 'asdfe45we45w345wegw345werjktjwertkj';
 
 app.use(cors({
   credentials: true,
-  origin: ["https://test-mern-wine.vercel.app"], // 🔥 Replace with your actual Vercel URL!
+  origin: ["https://test-mern-six.vercel.app"], // 🔥 Replace with your actual Vercel URL!
 }));
 
 app.use(express.json());
