@@ -1,2 +1,2 @@
-const backendUrl = "https://test-mern-2j8w.onrender.com";
+const backendUrl = "https://test-mern-tkay.onrender.com";
 fetch(`${backendUrl}/your-endpoint`);
